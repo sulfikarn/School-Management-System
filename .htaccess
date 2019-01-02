@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /schoolManagement/
+RewriteBase /School-Management-System/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /schoolManagement/index.php [L]
+RewriteRule . /School-Management-System/index.php [L]
 </IfModule>
